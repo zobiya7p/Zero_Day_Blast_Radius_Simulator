@@ -1,0 +1,38 @@
+{
+  "helios chip co.|bmc firmware": {
+    "eol": true,
+    "eol_date": "2022-01-01",
+    "single_source": true,
+    "maintenance_status": "unsupported"
+  },
+  "novanet systems|network switch os": {
+    "eol": false,
+    "eol_date": null,
+    "single_source": true,
+    "maintenance_status": "maintained"
+  },
+  "dragonforge semiconductor|edge ai chipset": {
+    "eol": false,
+    "eol_date": null,
+    "single_source": true,
+    "maintenance_status": "unknown"
+  },
+  "trustedhw inc.|gpu compute node": {
+    "eol": false,
+    "eol_date": null,
+    "single_source": false,
+    "maintenance_status": "maintained"
+  },
+  "openlinux foundation|server os": {
+    "eol": false,
+    "eol_date": null,
+    "single_source": false,
+    "maintenance_status": "maintained"
+  },
+  "securedb corp|database engine": {
+    "eol": false,
+    "eol_date": null,
+    "single_source": false,
+    "maintenance_status": "maintained"
+  }
+}

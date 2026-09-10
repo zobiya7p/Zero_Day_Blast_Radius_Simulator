@@ -1,0 +1,18 @@
+id,name,vendor,version,origin,type,dependencies
+comp_bmc,BMC Firmware,Helios Chip Co.,2.8.0,USA,firmware,
+comp_switch_os,Network Switch OS,NovaNet Systems,4.9.0,USA,firmware,
+comp_chip,Edge AI Chipset,DragonForge Semiconductor,1.3.0,Country X,hardware,
+comp_server_hw,Server Hardware Platform,TrustedHW Inc.,R2,USA,hardware,comp_bmc|comp_switch_os
+comp_gpu_node,GPU Compute Node,TrustedHW Inc.,R2,USA,hardware,comp_server_hw|comp_chip
+comp_os,Server OS,OpenLinux Foundation,12.4,USA,operating-system,comp_server_hw
+comp_dataset_lib,quickload-utils,,0.4.1,Unknown,library,
+comp_crypto_lib,cryptolite,,1.0.9,Unknown,library,
+comp_helper_lib,fastserialize,,2.2.0,Unknown,library,
+comp_db,Database Engine,SecureDB Corp,9.1,USA,application,comp_os
+comp_inference_svc,AI Inference Service,Internal,1.0,USA,application,comp_gpu_node|comp_os|comp_crypto_lib
+comp_training_pipeline,AI Training Pipeline,Internal,1.0,USA,application,comp_gpu_node|comp_dataset_lib|comp_helper_lib
+comp_auth_svc,Authentication Service,Internal,3.2,USA,application,comp_os|comp_db|comp_crypto_lib
+comp_logging,Logging Service,Internal,2.0,USA,application,comp_os
+comp_monitoring,Monitoring Service,Internal,1.4,USA,application,comp_os|comp_logging
+comp_api_gateway,API Gateway,Internal,2.1,USA,application,comp_auth_svc|comp_inference_svc|comp_logging
+comp_web_portal,Citizen Web Portal,Internal,1.6,USA,application,comp_api_gateway

@@ -1,0 +1,16 @@
+{
+  "restricted_vendors": [
+    "DragonForge Semiconductor"
+  ],
+  "restricted_countries": [
+    "Country X"
+  ],
+  "trusted_vendors": [
+    "Helios Chip Co.",
+    "NovaNet Systems",
+    "TrustedHW Inc.",
+    "OpenLinux Foundation",
+    "SecureDB Corp",
+    "Internal"
+  ]
+}

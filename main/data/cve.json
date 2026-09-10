@@ -1,0 +1,32 @@
+[
+  {
+    "cve_id": "CVE-2024-9001",
+    "vendor": "Helios Chip Co.",
+    "product": "BMC Firmware",
+    "affected_range": { "introduced": "0.0.0", "fixed": "3.2.5" },
+    "cvss": 9.8,
+    "severity": "Critical",
+    "fixed_version": "3.2.5",
+    "description": "Unauthenticated remote code execution in the baseboard management controller's network service, allowing full host takeover."
+  },
+  {
+    "cve_id": "CVE-2023-4521",
+    "vendor": "NovaNet Systems",
+    "product": "Network Switch OS",
+    "affected_range": { "introduced": "0.0.0", "fixed": "5.1.2" },
+    "cvss": 8.6,
+    "severity": "High",
+    "fixed_version": "5.1.2",
+    "description": "Privilege escalation via a crafted SNMP packet, enabling attacker control of switch management plane."
+  },
+  {
+    "cve_id": "CVE-2022-7788",
+    "vendor": "NovaNet Systems",
+    "product": "Network Switch OS",
+    "affected_range": { "introduced": "0.0.0", "fixed": "4.0.0" },
+    "cvss": 7.4,
+    "severity": "High",
+    "fixed_version": "4.0.0",
+    "description": "Authentication bypass in legacy management interface (superseded by CVE-2023-4521 on later branches)."
+  }
+]

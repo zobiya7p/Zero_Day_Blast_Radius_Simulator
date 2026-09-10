@@ -1,0 +1,66 @@
+[
+  {
+    "id": "svc_inference",
+    "name": "AI Inference API",
+    "type": "ai_pipeline",
+    "asset_value": 750000,
+    "hourly_downtime_cost": 12000,
+    "supported_by": ["comp_inference_svc"]
+  },
+  {
+    "id": "svc_training",
+    "name": "AI Training Pipeline",
+    "type": "ai_pipeline",
+    "asset_value": 600000,
+    "hourly_downtime_cost": 8000,
+    "supported_by": ["comp_training_pipeline"]
+  },
+  {
+    "id": "svc_auth",
+    "name": "Authentication Service",
+    "type": "critical_service",
+    "asset_value": 400000,
+    "hourly_downtime_cost": 10000,
+    "supported_by": ["comp_auth_svc"]
+  },
+  {
+    "id": "svc_logging",
+    "name": "Logging & Audit Service",
+    "type": "critical_service",
+    "asset_value": 150000,
+    "hourly_downtime_cost": 3000,
+    "supported_by": ["comp_logging"]
+  },
+  {
+    "id": "svc_gateway",
+    "name": "API Gateway",
+    "type": "critical_service",
+    "asset_value": 500000,
+    "hourly_downtime_cost": 14000,
+    "supported_by": ["comp_api_gateway"]
+  },
+  {
+    "id": "svc_portal",
+    "name": "Citizen Web Portal",
+    "type": "critical_service",
+    "asset_value": 300000,
+    "hourly_downtime_cost": 9000,
+    "supported_by": ["comp_web_portal"]
+  },
+  {
+    "id": "svc_db",
+    "name": "Database Engine",
+    "type": "data_asset",
+    "asset_value": 450000,
+    "hourly_downtime_cost": 7000,
+    "supported_by": ["comp_db"]
+  },
+  {
+    "id": "svc_monitoring",
+    "name": "Monitoring Service",
+    "type": "support_service",
+    "asset_value": 100000,
+    "hourly_downtime_cost": 2000,
+    "supported_by": ["comp_monitoring"]
+  }
+]
