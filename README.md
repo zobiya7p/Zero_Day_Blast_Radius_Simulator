@@ -57,8 +57,7 @@ contains:
 - 4 critical services (Auth, Logging, API Gateway, Web Portal)
 
 Simulating a BMC Firmware compromise cascades through the shared server
-hardware platform to nearly every downstream service -- producing a
-compelling, realistic exposure figure.
+hardware platform to nearly every downstream service producing a compelling, realistic exposure figure.
 <img width="488" height="327" alt="Screenshot 2026-09-11 171918" src="https://github.com/user-attachments/assets/9a01c8d3-607a-4e17-aff7-436f4287e115" />
 
 ## BOM Input Formats
