@@ -59,17 +59,16 @@ contains:
 Simulating a BMC Firmware compromise cascades through the shared server
 hardware platform to nearly every downstream service -- producing a
 compelling, realistic exposure figure.
-                   🔴 BMC Firmware                         
-                        │                               
-                        ▼                               
-                 🔴 Compute Cluster                      
-                    │             │                        
-                    ▼             ▼                        
-              🔴 AI Pipeline A   🔴 AI Pipeline B        
-                    │                                   
-                    ▼                                    
-            🔴 Government API                           
-                              
+          🔴 BMC Firmware                         
+                    │                                
+                    ▼                                
+               🔴 Compute Cluster                      
+                │             │                        
+                ▼             ▼                        
+           🔴 AI Pipeline A   🔴 AI Pipeline B        
+                │                                    
+                ▼                                    
+         🔴 Government API
 
 ## BOM Input Formats
 
